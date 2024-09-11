@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head><meta charset="utf-8">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.78.1">
+  <title>Error <!--#echo var="REDIRECT_STATUS" --> - HWPweb - Hafizul Wananda Putra Web</title>
+
+  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/sign-in/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://webadmin.aku-hafizulwananda.com/bootstrap-5.0.0-alpha3-examples/assets/dist/css/bootstrap.css"
+    rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="https://webadmin.aku-hafizulwananda.com/bootstrap-5.0.0-alpha3-examples/sign-in/signin.css"
+    rel="stylesheet">
+</head>
+
+<body class="text-center bg-danger text-white">
+
+  <main class="form-signin">
+    <form>
+      <h1 class="display-1 fw-normal"><!--#echo var="REDIRECT_STATUS" --></h1>
+      <p>The request at URL <span class="text-break"><!--#echo var="HTTP_HOST" --><!--#echo var="REQUEST_URI" --></span> has reached its timeout.</p>
+      <hr>
+      <small>
+      	<p>IP Address: <!--#echo var="REMOTE_ADDR" --></p>
+      	<p>User Agent: <!--#echo var="HTTP_USER_AGENT" --></p>
+      </small>
+      <hr>
+      <div class="btn-group-vertical">
+      	<button class="btn btn-lg btn-light btn-block bg-gradient" type="button" onclick="window.history.back();">Go Back</button>
+      	<a class="btn btn-lg btn-outline-light btn-block bg-gradient" href="https://aku-hafizulwananda.com" role="button">Go to Website</a>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
